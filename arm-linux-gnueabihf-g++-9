@@ -1,0 +1,2 @@
+#!/bin/sh
+docker run --rm --entrypoint arm-linux-gnueabihf-g++-9 --volume $PWD:/hostdir coderitter/coderitter/gcc-arm-glibc-frozen-versions:gcc-X.X.X_glibc-X.XX "$@"
