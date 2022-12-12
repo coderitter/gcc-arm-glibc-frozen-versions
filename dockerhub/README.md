@@ -4,7 +4,7 @@ This Docker image contains the compiled ARM GNU compiler toolchain with the spec
 
 ## How to use this image
 
-In your project, create a shell script for the RISC V compiler executable. You can name the file `arm-linux-gnueabihf-g++-9` which is the exact name of the ARM compiler executable inside the Docker container. Put the following content inside of it and replace the `X` with the version you want, for example `gcc-9.3.0_glibc-2.31`.
+In your project, create a shell script for the ARM compiler executable. You can name the file `arm-linux-gnueabihf-g++-9` which is the exact name of the ARM compiler executable inside the Docker container. Put the following content inside of it and replace the `X` with the version you want, for example `gcc-9.3.0_glibc-2.31`.
 
 ```bash
 #!/bin/sh
